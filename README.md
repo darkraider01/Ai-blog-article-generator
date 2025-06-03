@@ -162,7 +162,7 @@ DATABASES = {
         'USER': '',                 # Your PostgreSQL username
         'PASSWORD': '',       # Your PostgreSQL password
         'HOST': '',                  # Usually localhost for local setups
-        'PORT': '5432',                       # Default PostgreSQL port
+        'PORT': '',                       # Default PostgreSQL port
     }
 }
 ````
