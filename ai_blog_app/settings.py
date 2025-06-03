@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'ai_blog_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'yourdb',                     # Your PostgreSQL database name
-        'USER': 'brandybuck',                 # Your PostgreSQL user
-        'PASSWORD': 'brandybuck04iam',        # Your PostgreSQL password
-        'HOST': 'localhost',                  # Assuming it's local
-        'PORT': '5432',                       # Default PostgreSQL port
+        'NAME': '',                     # Your PostgreSQL database name
+        'USER': '',                 # Your PostgreSQL user
+        'PASSWORD': '',        # Your PostgreSQL password
+        'HOST': '',                  # Assuming it's local
+        'PORT': '',                       # Default PostgreSQL port
     }
 }
 
@@ -131,6 +131,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 LOGIN_URL = 'login/'
-COHERE_API_KEY = "tvJ0NRSoColu9xeMpOG1lBrEnCGp2BVpAbSVvdEY"
+COHERE_API_KEY = ""
 
-ASSEMBLYAI_API_KEY = "bba5de24409d4870a268ad63137685c2"
+ASSEMBLYAI_API_KEY = "2"
